@@ -81,3 +81,56 @@ html {
     	}
 
 	}
+
+
+@media only screen and (max-width: 480px) {
+		html { 
+		  width: 480px;
+		  background: url(erin1.jpg) no-repeat top center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+
+		#socialmedia a img {
+			width: 65px;
+		}
+
+		#socialmedia a {
+			opacity: 0.6;
+		}
+
+		#storelink {
+    		margin-top: 15px;  line-height: 3.4;  
+    		display: block;  background-color: rgb(255, 0, 163);
+    	}
+
+	}
+
+    /* Desire + Galaxy S2 (portrait and landscape) ----------- */
+    @media only screen
+    and (min-device-width : 480px)
+    and (max-device-width : 800px) {
+		html { 
+		  width: 480px;
+		  background: url(erin1.jpg) no-repeat top center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+
+		#socialmedia a img {
+			width: 65px;
+		}
+
+		#socialmedia a {
+			opacity: 0.6;
+		}
+
+		#storelink {
+    		margin-top: 15px;  line-height: 3.4;  
+    		display: block;  background-color: rgb(255, 0, 163);
+    	}
+    }
