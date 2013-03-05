@@ -52,3 +52,32 @@ html {
 #socialmedia a:hover {
     opacity: 1;
 }
+
+#socialmedia a img {
+	width: 35px;
+}
+
+@media only screen and (max-width: 480px) {
+		html { 
+		  width: 450px;
+		  background: url(erin1.jpg) no-repeat top center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+
+		#socialmedia a img {
+			width: 65px;
+		}
+
+		#socialmedia a {
+			opacity: 0.6;
+		}
+
+		#storelink {
+    		margin-top: 15px;  line-height: 3.4;  
+    		display: block;  background-color: rgb(255, 0, 163);
+    	}
+
+	}
