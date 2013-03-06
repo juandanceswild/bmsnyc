@@ -111,7 +111,8 @@ html {
     /* Desire + Galaxy S2 (portrait and landscape) ----------- */
     @media only screen
     and (min-device-width : 480px)
-    and (max-device-width : 800px) {
+    and (max-device-width : 800px)
+    and (orientation : portrait) {
 		html { 
 		  width: 480px;
 		  background: url(erin1.jpg) no-repeat top center fixed; 
