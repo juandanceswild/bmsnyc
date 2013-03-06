@@ -8,10 +8,7 @@ html {
 
 #logo {
 	font-size: 60px;
-	color: rgb(255, 255, 255);
 	letter-spacing: 10px;
-	font-family: 'Cutive', serif;
-	text-align: center;
 }
 
 .footer {
@@ -58,40 +55,10 @@ html {
 	width: 35px;
 }
 
-@media only screen and (max-device-width: 480px) {
-		html { 
-		  width: 450px;
-		  background: url(erin1.jpg) no-repeat top center fixed; 
-		  -webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;
-		}
-
-		#socialmedia a img {
-			width: 65px;
-		}
-
-		#socialmedia a {
-			opacity: 0.6;
-		}
-
-		#storelink {
-    		margin-top: 15px;  line-height: 3.4;  
-    		display: block;  background-color: rgb(255, 0, 163);
-    	}
-
-	}
-
-
 @media only screen and (max-width: 480px) {
 		html { 
 		  width: 480px;
 		  background: url(erin1.jpg) no-repeat top center fixed; 
-		  -webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;
 		}
 
 		#socialmedia a img {
@@ -109,7 +76,28 @@ html {
 
 	}
 
-    /* Desire + Galaxy S2 (portrait and landscape) ----------- */
+    /* Desire + Galaxy S2 (landscape) ----------- */
+    @media only screen
+    and (min-device-width : 480px)
+    and (max-device-width : 800px)
+    and (orientation : landscape) {
+    
+    #storelink {
+    		line-height: 3.4;  
+    	}
+    
+    #logo {
+    	font-size: 45px;
+    }
+
+    .footer a {
+    	font-size: 16px;
+    }
+
+    }
+
+
+    /* Desire + Galaxy S2 (portrait) ----------- */
     @media only screen
     and (min-device-width : 480px)
     and (max-device-width : 800px)
@@ -117,10 +105,6 @@ html {
 		html { 
 		  width: 480px;
 		  background: url(erin1.jpg) no-repeat top center fixed; 
-		  -webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;
 		}
 
 		#socialmedia a img {
@@ -132,7 +116,6 @@ html {
 		}
 
 		#storelink {
-    		margin-top: 15px;  line-height: 5.4;  
-    		display: block;  background-color: rgb(255, 0, 163);
+			line-height: 5.4;  
     	}
     }
