@@ -59,6 +59,10 @@ html {
 		html { 
 		  width: 480px;
 		  background: url(erin1.jpg) no-repeat top center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
 		}
 
 		#socialmedia a img {
@@ -109,6 +113,10 @@ html {
 		html { 
 		  width: 480px;
 		  background: url(erin1.jpg) no-repeat top center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
 		}
 
 		#socialmedia a img {
