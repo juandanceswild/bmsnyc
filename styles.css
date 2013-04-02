@@ -94,7 +94,7 @@ p, a, h1 {
     	}
     
     .logo {
-    	font-size: 45px;
+    	font-size: 40px;
     }
 
     .footer a {
@@ -115,11 +115,15 @@ p, a, h1 {
     and (orientation : portrait) {
 		html { 
 		  width: 480px;
-		  background: url(bmsbg2.jpg) no-repeat center center fixed; 
+		  background: url(bmsbg2.jpg) no-repeat top center fixed; 
 		  -webkit-background-size: cover;
 		  -moz-background-size: cover;
 		  -o-background-size: cover;
 		  background-size: cover;
+		}
+
+		.logo {
+			font-size: 45px;
 		}
 
 		#socialmedia a img {
