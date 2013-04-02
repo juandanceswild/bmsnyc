@@ -1,14 +1,17 @@
 html { 
-  background: url(erin1.jpg) no-repeat top left fixed; 
+  background: url(bmsbg2.jpg) no-repeat bottom left fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-#logo {
-	font-size: 60px;
+.logo {
+	font-size: 40px;
 	letter-spacing: 10px;
+	text-align: left;
+	margin: 10px;
+	float: left;
 }
 
 .footer {
@@ -17,7 +20,7 @@ html {
    width:100%;   /* Height of the footer */
 }
 
-.footer p, a, h1 {
+p, a, h1 {
 	font-weight:normal;
 	color: rgb(255, 255, 255);
 	letter-spacing:1pt;
@@ -58,7 +61,7 @@ html {
 @media only screen and (max-width: 480px) {
 		html { 
 		  width: 480px;
-		  background: url(erin1.jpg) no-repeat top center fixed; 
+		  background: url(bmsbg2.jpg) no-repeat top center fixed; 
 		  -webkit-background-size: cover;
 		  -moz-background-size: cover;
 		  -o-background-size: cover;
@@ -90,7 +93,7 @@ html {
     		line-height: 3.4;  
     	}
     
-    #logo {
+    .logo {
     	font-size: 45px;
     }
 
@@ -112,7 +115,7 @@ html {
     and (orientation : portrait) {
 		html { 
 		  width: 480px;
-		  background: url(erin1.jpg) no-repeat top center fixed; 
+		  background: url(bmsbg2.jpg) no-repeat center center fixed; 
 		  -webkit-background-size: cover;
 		  -moz-background-size: cover;
 		  -o-background-size: cover;
